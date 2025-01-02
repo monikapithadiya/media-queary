@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-1 {
+    height: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.header-2 {
+    margin-top: 20px;
+    padding: 20px;
+    /* height: 40px; */
+    background-color: black;
+    color: white;
+}
+
+.header-2 a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    font-size: larger;
+    padding: 20px;
+    margin-top: 40px;
+}
+.header-2-child {
+    margin-left: 80%;
+    margin-top: -40px;
+}
+
+.header-2-child i{
+    padding:20px;
+    font-size: large;
+}
+
+.section-1{
+    height: 22vh;
+    background-color: rgba(4, 32, 143, 0.858);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-top: 10px;
+}
+.section-1 p{
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-top: 10px;
+}
+.link {
+     display: flex;
+     margin-left: 41%;
+     
+}
+.link a{
+    color: white;
+    padding: 10px;
+}
+h5{
+    color: white;
+    text-align: center;
+}
+
+.section-2{
+    background-image: url(assets/image/bggg.avif);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-2 h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    line-height: 1.142;
+    padding-top: 150px;
+    font-weight: bolder;
+    word-spacing: 10px;
+     letter-spacing: 5px;
+}
+.section-2 p{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.section-3{
+    margin-top: 50px;
+}
+
+.section-3 h1{
+      color: black;
+      text-align: center;
+}
+.boxes{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 40px;
+}
+.image-1 img{
+    height: 442.8px;
+    width: 442.8px;
+    margin-left: 30px;
+}
+.image-1 h1{
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+}
+button{
+      width: 256px;
+      height: 41.6px;
+      background-color: black;
+      color: white;
+      margin-top: 10px;
+      font-size: larger;
+      font-weight: bolder;
+}
+.image-2 img{
+    height: 442.8px;
+    width: 442.8px;
+    margin-left: 30px;
+}
+.image-2 h1{
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+}
+
+.image-3 img{
+    height: 442.8px;
+    width: 442.8px;
+    margin-left: 30px;
+}
+.image-3 h1{
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+}
+.boxes-2{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.image-4 img{
+    height: 700px;
+    width: 700px;
+    margin-left: 30px;
+}
+.image-4 h1{
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+}
+.image-5 img{
+    height: 700px;
+    width: 700px;
+    margin-left: 30px;
+}
+.image-5 h1{
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+}
+
+
+.footer{
+    height:50vh;
+    background-color: black;
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer h1{
+   color: white;
+   text-align: start;
+   margin-left:5px;
+}
+.footer a{
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    text-decoration: none;
+    margin-top: 5px;
+    display: flex;
+
+}
+
+
+.faa {
+    
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+
+.faa-2 {
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.faa-3 {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.faa-4{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.icons i{
+    font-size: 40px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:768px){
+    .header-1{
+      display: none;
+    }
+    .header-2{
+      display: none;
+    }
+    .header-2-child{
+      display: none;
+    }
+    .section-1{
+        max-width: 100%;
+    }
+    .link{
+        display: flex;
+        margin-left: 55px;
+       
+    }
+    .boxes{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxes-2{
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .image-4 img,
+    .image-5 img,
+    .image-1 img,
+    .image-2 img,
+    .image-3 img{
+        max-width: 100%;
+        margin-left: -5px;
+        margin-top: 10px;
+
+    }
+    .footer{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .image-4 img,
+    .image-5 img{
+        margin-left: -5px;
+    }
+    .image-1 img,
+    .image-2 img,
+    .image-3 img{
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+    .boxes h1 ,button{
+       
+        margin-left: -52px;
+    }
+    .faa-4{
+        margin-left: 140px
+    }
+
+   
+
+
+}
